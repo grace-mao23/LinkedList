@@ -34,7 +34,8 @@ struct node * free_list(struct node * n) {
 
 struct node * removeNode(struct node *front, int data) {
   struct node *p = front;
-  struct node *prev = 0;
+  struct node *prev;
+  prev->next = 0;
   while(p->next) {
     if (p->i == data) {
       prev->next = p->next;
