@@ -15,6 +15,8 @@ int main() {
     p = insert_front(p, i);
   }
   print_list(p);
+  p = removeNode(p, 8);
+  print_list(p);
   printf("Freeing all values: \n");
   p = free_list(p);
   print_list(p);
