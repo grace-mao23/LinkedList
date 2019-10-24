@@ -42,6 +42,7 @@ struct node * removeNode(struct node *front, int data) {
       free(p);
       return front;
     }
+    prev=p;
     p=p->next;
   }
   return front;
