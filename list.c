@@ -24,7 +24,7 @@ struct node * free_list(struct node * n) {
   while(n->next) {
     //printf("%p\n", p);
     p = p->next;
-    n-> next = 0;
+    //n-> next = 0;
     free(n);
     n = p;
   }
