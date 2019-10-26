@@ -3,10 +3,9 @@
 #include "list.h"
 
 int main() {
-  struct node n;
+  /*struct node n;
   struct node *p = &n;
-  p->i = 0;
-  p->next = 0;
+  p = NULL;
   int i;
   printf("\nPrinting empty list created:\n");
   print_list(p);
@@ -15,10 +14,10 @@ int main() {
     p = insert_front(p, i);
   }
   print_list(p);
-  p = removeNode(p, 8);
+  p = removeNode(p, 9);
   print_list(p);
   printf("Freeing all values: \n");
   p = free_list(p);
-  print_list(p);
+  print_list(p);*/
   return 0;
 }
